@@ -13,3 +13,8 @@
 ## rest
 
 - http://www.baeldung.com/securing-a-restful-web-service-with-spring-security
+
+```text
+curl -i -X POST -d username=user -d password=userPass -c cookies.txt http://localhost:8080/login
+curl -i --header "Accept:application/json" -X GET -b cookies.txt http://localhost:8080/api/foos
+```

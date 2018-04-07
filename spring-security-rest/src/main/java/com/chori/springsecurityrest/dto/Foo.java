@@ -1,5 +1,7 @@
 package com.chori.springsecurityrest.dto;
 
+import java.io.Serializable;
+
 public class Foo {
     private long id;
     private String name;

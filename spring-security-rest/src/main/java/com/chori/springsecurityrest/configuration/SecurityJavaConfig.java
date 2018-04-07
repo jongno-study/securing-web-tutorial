@@ -29,7 +29,6 @@ public class SecurityJavaConfig extends WebSecurityConfigurerAdapter {
                 .withUser("temporary").password("temporary").roles("ADMIN")
                 .and()
                 .withUser(User.withDefaultPasswordEncoder().username("user").password("userPass").roles("USER").build());
-//                .withUser("user").password("userPass").roles("USER");
     }
 
     @Override
