@@ -18,3 +18,7 @@
 curl -i -X POST -d username=user -d password=userPass -c cookies.txt http://localhost:8080/login
 curl -i --header "Accept:application/json" -X GET -b cookies.txt http://localhost:8080/api/foos
 ```
+
+## 웹 개발자를 위한 Spring 4.0 프로그래밍
+### chapter16 스프링 시큐리티를 이용한 웹 보안
+https://github.com/chori84/springsecuritybook
